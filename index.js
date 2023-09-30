@@ -1,9 +1,9 @@
-// function cToF (celsius) {
-//     return celsius * 1.8 + 32
-// }
+let dollars = [1, 5, 10, 3]
 
-const cToF = (celsius) => {
-    return celsius * 1.8 + 32
+let cents = []
+
+for (i = 0; i < dollars.length; i++) {
+    cents.push(dollars[i] * 100)
 }
 
-console.log(cToF(0));
+console.log(cents)
